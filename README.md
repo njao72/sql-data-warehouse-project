@@ -31,7 +31,9 @@ Develop SQL-based analytics to deliver insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making
 
 ---
-##📍 About Me
+
+##### 📌 About Me
+
 Hi, I’m James Njao, a Data Science student at Strathmore University with a strong interest in data analytics and data warehousing. This repository focuses on building and working with SQL-based data warehouse solutions to support efficient data storage, transformation, and analytical querying for data-driven decision-making.
 
 
