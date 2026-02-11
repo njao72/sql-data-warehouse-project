@@ -19,7 +19,14 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 -  **Scope** : Focus on the latest dataset only; historizattion of data is not required
 -   **Documentaion** : Provide clear documentation to the data model to support both business stakeholders and analytics teams
 
-----
+---------------------
+
+## Data Architechture
+The data architechture follows the medallion heirachy which includes bronze,silver and gold layer
+----<img width="1291" height="821" alt="ETL flow diagram" src="https://github.com/user-attachments/assets/6a30224b-0fc1-41d7-b6b7-d83d63809285" />
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ### BI: Analytics & Reporting(Data Analytics)
 
